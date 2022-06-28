@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    //Color
+    --raisin-black-2: #23222f;
+    --raisin-black-1: #292839;
+    --majorelle-blue: #5c50dc;
+    --ghost-white-1: #fafaff;
+    --ghost-white-2: #f0f2fa;
+    --white-opacity: #ffffff80;
+    --independence: #3b3951;
+    --lavender-web: #ece9fb;
+    --eerie-black: #22262a;
+    --cool-gray: #8d8bac;
+    --sapphire: #0056b3;
+    --white: #ffffff;
+
+    //Typography
+    --ff-quicksand: "Quicksand", sans-serif;
+    --ff-mulish: "Mulish", sans-serif;
+
+    //Font Size
+    --fs-1: 2.25rem;
+    --fs-2: 1.75rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.063rem;
+    --fs-5: 1rem;
+    --fs-6: 0.938rem;
+    --fs-7: 0.875rem;
+
+    //Font Weight 
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    //Transition
+    --transition: 0.25s ease;
+
+    //Spacing
+    --section-padding: 5rem;
+}
+
+body {
+    font-size: 1rem;
+    font-family: var(--ff-quicksand);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--ff-mulish);
+    font-weight: var(--fw-600);
+    color:var(--independence);
+    text-transform: capitalize;
+}
+
+p{
+    color:var(--cool-gray);
+    font-size: var(--fs-6);
+    line-height:1.794rem ;
+}
+
+a{
+    text-decoration: none;
+}
+
+input,textarea{
+    font-family: var(--ff-mulish);
+    font-size: var(--fs-7);
+}

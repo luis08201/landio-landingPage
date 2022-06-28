@@ -1,0 +1,9 @@
+@mixin content-width{
+    max-width:90%;
+    width:100%;
+    margin:0 auto;
+
+    @media screen and (min-width:1200px){
+        max-width: 1000px;
+    }
+}
