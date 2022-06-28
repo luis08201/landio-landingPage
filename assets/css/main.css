@@ -242,6 +242,9 @@ input, textarea {
   color: var(--independence);
   margin-bottom: 23px;
 }
+.home__article--img {
+  display: inline-block;
+}
 .home__form {
   display: flex;
   flex-direction: column;
